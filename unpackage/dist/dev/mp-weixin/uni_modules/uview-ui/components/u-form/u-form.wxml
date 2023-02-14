@@ -1,0 +1,1 @@
+<view class="u-form data-v-786a592e"><slot></slot></view>

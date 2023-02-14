@@ -1,0 +1,1 @@
+<view class="mine"><u-button vue-id="bae1c640-1" type="primary" text="退出登录" data-event-opts="{{[['^click',[['signOut']]]]}}" bind:click="__e" bind:__l="__l"></u-button></view>

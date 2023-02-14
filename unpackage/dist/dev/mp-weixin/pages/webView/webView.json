@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "H5页面",
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": false,
+  "usingComponents": {}
+}

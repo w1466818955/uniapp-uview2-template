@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "登录页",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {}
+}

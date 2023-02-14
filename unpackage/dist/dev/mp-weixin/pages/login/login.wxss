@@ -1,0 +1,151 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.login.data-v-b237504c {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  background-color: #fff;
+  z-index: 99;
+}
+.login .txt.data-v-b237504c {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #333333;
+}
+.login .login-bg.data-v-b237504c {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 500rpx;
+  overflow: hidden;
+  z-index: -1;
+}
+.login .login-bg.data-v-b237504c:after {
+  /* 这个伪类的作用就是一个圆弧的背景色 */
+  position: absolute;
+  content: '';
+  top: 0;
+  z-index: -1;
+  width: 140%;
+  height: 500rpx;
+  left: -20%;
+  border-radius: 0 0 50% 50%;
+  /*分别对应 左上 右上 右下 左下 可以修改成其它颜色*/
+  background: linear-gradient(160deg, #1496f1, #79dcfa);
+}
+.login .reg.data-v-b237504c {
+  font-size: 28rpx;
+  color: #fff;
+  height: 90rpx;
+  line-height: 90rpx;
+  border-radius: 50rpx;
+  font-weight: bold;
+  background: #f5f6fa;
+  color: #000000;
+  text-align: center;
+  margin-top: 30rpx;
+}
+.login .login-view.data-v-b237504c {
+  width: 100%;
+  position: relative;
+  margin-top: 40rpx;
+  background-color: #ffffff;
+  border-radius: 8% 8% 0% 0;
+}
+.login .t-login.data-v-b237504c {
+  width: 600rpx;
+  margin: 0 auto;
+  font-size: 28rpx;
+  padding-top: 80rpx;
+}
+.login .t-login button.data-v-b237504c {
+  font-size: 28rpx;
+  background: #2796f2;
+  color: #fff;
+  height: 90rpx;
+  line-height: 90rpx;
+  border-radius: 50rpx;
+  font-weight: bold;
+}
+.login .t-login input.data-v-b237504c,
+.login .pwd-input.data-v-b237504c {
+  height: 90rpx;
+  line-height: 90rpx;
+  margin-bottom: 50rpx;
+  border-bottom: 1px solid #e9e9e9;
+  font-size: 28rpx;
+}
+.login .t-login .t-a.data-v-b237504c {
+  position: relative;
+}
+.login .iconfont.data-v-b237504c {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  z-index: 10;
+}
+.login .t-b.data-v-b237504c {
+  text-align: left;
+  font-size: 42rpx;
+  color: #ffffff;
+  padding: 180rpx 0 0 70rpx;
+  font-weight: bold;
+  line-height: 70rpx;
+}
+.login .t-login .t-c.data-v-b237504c {
+  position: absolute;
+  right: 22rpx;
+  top: 22rpx;
+  background: #5677fc;
+  color: #fff;
+  font-size: 24rpx;
+  border-radius: 50rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  padding: 0 25rpx;
+}
+.login .t-login .t-d.data-v-b237504c {
+  text-align: center;
+  color: #999;
+  margin: 80rpx 0;
+}
+.login .t-login .t-e.data-v-b237504c {
+  text-align: center;
+  width: 250rpx;
+  margin: 80rpx auto 0;
+}
+.login .t-login .t-g.data-v-b237504c {
+  float: left;
+  width: 50%;
+}
+.login .t-login .t-e image.data-v-b237504c {
+  width: 50rpx;
+  height: 50rpx;
+}
+.login .t-login .t-f.data-v-b237504c {
+  text-align: center;
+  margin: 150rpx 0 0 0;
+  color: #666;
+}
+.login .t-login .t-f text.data-v-b237504c {
+  margin-left: 20rpx;
+  color: #aaaaaa;
+  font-size: 27rpx;
+}
+.login .t-login .uni-input-placeholder.data-v-b237504c {
+  color: #aeaeae;
+}
+.login .cl.data-v-b237504c {
+  zoom: 1;
+}
+.login .cl.data-v-b237504c:after {
+  clear: both;
+  display: block;
+  visibility: hidden;
+  height: 0;
+  content: '\20';
+}
+

@@ -1,0 +1,73 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/home/home",
+    "pages/mine/mine",
+    "pages/404/404",
+    "pages/webView/webView",
+    "pages/versionUpdate/versionUpdate"
+  ],
+  "subPackages": [
+    {
+      "root": "subpages",
+      "pages": [
+        "test"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#3590e1",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "white",
+    "list": [
+      {
+        "iconPath": "static/images/icon_home_nochecked.png",
+        "selectedIconPath": "static/images/icon_home_checked.png",
+        "pagePath": "pages/home/home",
+        "text": "首页"
+      },
+      {
+        "iconPath": "static/images/icon_shenpi_nochecked.png",
+        "selectedIconPath": "static/images/icon_shenpi_checked.png",
+        "pagePath": "pages/webView/webView",
+        "text": "H5"
+      },
+      {
+        "iconPath": "static/images/icon_mine_nochecked.png",
+        "selectedIconPath": "static/images/icon_mine_checked.png",
+        "pagePath": "pages/mine/mine",
+        "text": "我的"
+      }
+    ]
+  },
+  "preloadRule": {
+    "pages/home/home": {
+      "network": "all",
+      "packages": [
+        "__APP__"
+      ]
+    }
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "用于位置定位"
+    }
+  },
+  "requiredBackgroundModes": [
+    "location"
+  ],
+  "requiredPrivateInfos": [
+    "getLocation",
+    "onLocationChange",
+    "startLocationUpdate",
+    "startLocationUpdateBackground"
+  ],
+  "usingComponents": {}
+}

@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+view.data-v-727e452e, scroll-view.data-v-727e452e, swiper-item.data-v-727e452e {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  flex-grow: 0;
+  flex-basis: auto;
+  align-items: stretch;
+  align-content: flex-start;
+}
+.u-line.data-v-727e452e {
+  vertical-align: middle;
+}
+
